@@ -48,7 +48,7 @@ int main(int argc, char **argv) {
     // 0 = up, 1 = right, 2 = down, 3 = left
     char dir = 0;
 
-    int initial = 6;
+    int initial = 10;
     int length = initial;
 
     coords = vector<int*>(length, NULL);
@@ -139,7 +139,7 @@ int main(int argc, char **argv) {
 
         printf("%s\nScore: %d | Fruit: (%d, %d)\n", output, length - initial, fruit[0], fruit[1]);
 
-        usleep(100000);
+        usleep(130000);
         
     }
 
